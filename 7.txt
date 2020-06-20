@@ -1,0 +1,64 @@
+前情回顾
+
+1. where 子句   （行的筛选）
+
+   运算符 ：  算数   比较   逻辑
+
+2. 修改   删除   表结构修改
+
+   update [tb] set col1=val1,...  where ...
+
+   delete from [tb] where ..
+
+   alter table [tb]  add/modify/change/drop/rename
+
+3. 时间数据类型
+
+   date   datetime  time  year  timestamp
+
+   now()  curtime()  curdate()
+
+4. 高级查询
+
+   模糊查询   like
+   正则查询   regexp
+   起名字     as
+   排序       order by  [col]   desc
+   限制       limit  [n]
+   联合查询   union   all
+   子查询     （）   from 将查询结果作为一个表   where子句中 值得提供者
+
+5. 聚合操作
+
+   select  ———》数据整理整合
+
+   聚合函数 ： avg()  max()  min()  sum()  count()
+
+   聚合分组 ： group by
+
+练习1：使用book表完成
+1. 统计每位作家图书的平均价格
+2. 统计每个出版社出版图书的数量
+3. 查看总共 有多少出版社
+4. 筛选出那些 出版过超过50元的图书的出版社，并按照其出版图书的平均价格
+  按照降序排序
+5. 统计相同时间出版的图书的平均价格
+
+
+思考练习2：
+用户信息--》 用户名  密码  电话 .. .
+朋友圈信息 --》 谁发的，内容 ，图片  时间  地点  评论  点赞
+
+
+练习3 ：
+根据基础关系 ，建立起 朋友圈 内容存储的表
+* 几张表
+* 表的关系
+* 如何创建
+
+作业 ： 1. 完成朋友圈案例的表创建
+       2. 熟悉今天的语句内容
+
+
+
+
