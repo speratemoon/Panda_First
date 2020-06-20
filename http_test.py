@@ -1,8 +1,3 @@
-"""
-http请求响应展示示例
-"""
-
-from socket import *
 
 # 创建tcp套接字
 s = socket()

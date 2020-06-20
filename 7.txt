@@ -1,22 +1,4 @@
-前情回顾
 
-1. where 子句   （行的筛选）
-
-   运算符 ：  算数   比较   逻辑
-
-2. 修改   删除   表结构修改
-
-   update [tb] set col1=val1,...  where ...
-
-   delete from [tb] where ..
-
-   alter table [tb]  add/modify/change/drop/rename
-
-3. 时间数据类型
-
-   date   datetime  time  year  timestamp
-
-   now()  curtime()  curdate()
 
 4. 高级查询
 
